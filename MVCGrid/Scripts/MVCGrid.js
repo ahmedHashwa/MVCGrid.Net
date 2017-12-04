@@ -3,7 +3,7 @@ var MVCGrid = new function () {
 
     var handlerPath = '%%HANDLERPATH%%';
     var controllerPath = '%%CONTROLLERPATH%%';
-    var showErrorDetails = %%ERRORDETAILS%%;
+    var showErrorDetails = '%%ERRORDETAILS%%';
     var currentGrids = [];
 
     // public

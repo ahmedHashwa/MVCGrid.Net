@@ -20,12 +20,6 @@ namespace MVCGrid.Web
         public static void Add<T1>(string name, GridDefinition<T1> mapping)
         {
 
-            if (_table.ContainsKey(name))
-            {
-                throw new ArgumentException(
-                    String.Format("There is already a grid definition with the name '{0}'.", name),
-                    "name");
-            }
 
             if (mapping.RetrieveData == null)
             {
